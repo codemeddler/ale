@@ -581,6 +581,7 @@ formatting.
   * [solargraph](https://solargraph.org)
   * [sorbet](https://github.com/sorbet/sorbet)
   * [standardrb](https://github.com/testdouble/standard)
+  * [steep](https://github.com/soutaro/steep)
   * [syntax_tree](https://github.com/ruby-syntax-tree/syntax_tree)
 * Rust
   * [cargo](https://github.com/rust-lang/cargo) :floppy_disk: (see `:help ale-integration-rust` for configuration instructions)
@@ -720,7 +721,7 @@ formatting.
 * XML
   * [xmllint](http://xmlsoft.org/xmllint.html)
 * YAML
-  * [actionlint](https://github.com/rhysd/actionlint) :warning:
+  * [actionlint](https://github.com/rhysd/actionlint)
   * [circleci](https://circleci.com/docs/2.0/local-cli) :floppy_disk: :warning:
   * [gitlablint](https://github.com/elijah-roberts/gitlab-lint)
   * [prettier](https://github.com/prettier/prettier)
