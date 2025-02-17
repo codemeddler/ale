@@ -17,6 +17,11 @@ let s:default_registry = {
 \       'suggested_filetypes': ['help'],
 \       'description': 'Align help tags to the right margin',
 \   },
+\   'apkbuild-fixer': {
+\       'function': 'ale#fixers#apkbuild_fixer#Fix',
+\       'suggested_filetypes': ['apkbuild'],
+\       'description': 'Fix policy violations found by apkbuild-lint in APKBUILDs',
+\   },
 \   'autoimport': {
 \       'function': 'ale#fixers#autoimport#Fix',
 \       'suggested_filetypes': ['python'],
@@ -39,7 +44,7 @@ let s:default_registry = {
 \   },
 \   'biome': {
 \       'function': 'ale#fixers#biome#Fix',
-\       'suggested_filetypes': ['javascript', 'typescript', 'json', 'jsonc'],
+\       'suggested_filetypes': ['javascript', 'typescript', 'json', 'jsonc', 'css', 'graphql'],
 \       'description': 'Fix JavaScript and TypeScript using biome.',
 \   },
 \   'black': {
@@ -97,6 +102,17 @@ let s:default_registry = {
 \       'function': 'ale#fixers#dune#Fix',
 \       'suggested_filetypes': ['dune'],
 \       'description': 'Fix dune files with dune format',
+\   },
+\   'erlang_mode': {
+\       'function': 'ale#fixers#erlang_mode#Fix',
+\       'suggested_filetypes': ['erlang'],
+\       'description': 'Indent with the Erlang mode for Emacs',
+\       'aliases': ['erlang-mode'],
+\   },
+\   'erlfmt': {
+\       'function': 'ale#fixers#erlfmt#Fix',
+\       'suggested_filetypes': ['erlang'],
+\       'description': 'Format Erlang code with erlfmt',
 \   },
 \   'fecs': {
 \       'function': 'ale#fixers#fecs#Fix',
@@ -200,6 +216,11 @@ let s:default_registry = {
 \       'function': 'ale#fixers#yapf#Fix',
 \       'suggested_filetypes': ['python'],
 \       'description': 'Fix Python files with yapf.',
+\   },
+\   'yq': {
+\       'function': 'ale#fixers#yq#Fix',
+\       'suggested_filetypes': ['yaml'],
+\       'description': 'Fix YAML files with yq.',
 \   },
 \   'rubocop': {
 \       'function': 'ale#fixers#rubocop#Fix',
@@ -320,6 +341,11 @@ let s:default_registry = {
 \       'function': 'ale#fixers#goimports#Fix',
 \       'suggested_filetypes': ['go'],
 \       'description': 'Fix Go files imports with goimports.',
+\   },
+\   'golangci_lint': {
+\       'function': 'ale#fixers#golangci_lint#Fix',
+\       'suggested_filetypes': ['go'],
+\       'description': 'Fix Go files with golangci-lint.',
 \   },
 \   'golines': {
 \       'function': 'ale#fixers#golines#Fix',
@@ -665,6 +691,11 @@ let s:default_registry = {
 \       'function': 'ale#fixers#rubyfmt#Fix',
 \       'suggested_filetypes': ['ruby'],
 \       'description': 'A formatter for Ruby source code',
+\   },
+\   'cljfmt': {
+\       'function': 'ale#fixers#cljfmt#Fix',
+\       'suggested_filetypes': ['clojure'],
+\       'description': 'formatter and linter for clojure files',
 \   },
 \}
 

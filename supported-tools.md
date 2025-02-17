@@ -32,6 +32,7 @@ formatting.
 * API Blueprint
   * [drafter](https://github.com/apiaryio/drafter)
 * APKBUILD
+  * [apkbuild-fixer](https://gitlab.alpinelinux.org/Leo/atools)
   * [apkbuild-lint](https://gitlab.alpinelinux.org/Leo/atools)
   * [secfixes-check](https://gitlab.alpinelinux.org/Leo/atools)
 * AsciiDoc
@@ -113,6 +114,8 @@ formatting.
   * [flawfinder](https://www.dwheeler.com/flawfinder/)
   * [gcc](https://gcc.gnu.org/)
   * [uncrustify](https://github.com/uncrustify/uncrustify)
+* C3
+  * [c3lsp](https://github.com/pherrymason/c3-lsp)
 * Cairo
   * [scarb](https://docs.swmansion.com/scarb/) :floppy_disk:
   * [starknet](https://starknet.io/docs)
@@ -121,6 +124,7 @@ formatting.
   * [foodcritic](http://www.foodcritic.io/) :floppy_disk:
 * Clojure
   * [clj-kondo](https://github.com/borkdude/clj-kondo)
+  * [cljfmt](https://github.com/weavejester/cljfmt)
   * [joker](https://github.com/candid82/joker)
 * CloudFormation
   * [cfn-python-lint](https://github.com/awslabs/cfn-python-lint)
@@ -200,6 +204,7 @@ formatting.
   * [SyntaxErl](https://github.com/ten0s/syntaxerl)
   * [dialyzer](http://erlang.org/doc/man/dialyzer.html) :floppy_disk:
   * [elvis](https://github.com/inaka/elvis) :floppy_disk:
+  * [erlang-mode](https://www.erlang.org/doc/apps/tools/erlang_mode_chapter.html) (The Erlang mode for Emacs)
   * [erlang_ls](https://github.com/erlang-ls/erlang_ls)
   * [erlc](http://erlang.org/doc/man/erlc.html)
   * [erlfmt](https://github.com/WhatsApp/erlfmt)
@@ -736,6 +741,7 @@ formatting.
   * [yamlfix](https://lyz-code.github.io/yamlfix)
   * [yamlfmt](https://github.com/google/yamlfmt)
   * [yamllint](https://yamllint.readthedocs.io/)
+  * [yq](https://github.com/mikefarah/yq)
 * YANG
   * [yang-lsp](https://github.com/theia-ide/yang-lsp)
 * Zeek
